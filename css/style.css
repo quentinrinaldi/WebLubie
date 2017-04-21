@@ -548,21 +548,81 @@ transition: all ease 0.5s;
  top: 0;
  width: 100%;
  height: auto%;
- opacity: 0.5;
+ opacity: 0.3;
 }
 
 #job {
   height:948px;
   position: relative;
   overflow: hidden;
-  color:white;
 }
+
+#job h1 {
+ color:white;
+ font-size: 32px;
+} 
+
+#job h2 {
+ color:white;
+ font-size: 24px;
+} 
 
 .overlay {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
   left: 0
 } 
+
+.job-box {
+  color: white;
+  padding:5px;
+  opacity:0.9;
+  margin-bottom:25px;
+  margin-top:25px;
+}
+
+.job-box .text {
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.job-box i {
+  float: left;
+  margin-right: 15px;
+  font-size: 30px;
+  vertical-align: middle;
+
+}
+
+.job-box small {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.vertical-hr{
+  border-right: 1px dashed white;
+  height: 100%;
+  padding-right:40px;
+}
+
+.job-heading {
+  margin-top:25px;
+  margin-bottom:30px;
+}
+
+.fa-arrows-v {
+  font-size:56px;
+  color:white;
+  margin-bottom:30px;
+}
+
+#job p {
+  font-size:18px;
+}
+
+.right-side {
+  margin-left:60px;
+}
