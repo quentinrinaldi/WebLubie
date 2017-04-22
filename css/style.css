@@ -323,7 +323,7 @@ background: #CEB17C;
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: rgba(213,213,213,0.2);
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -542,18 +542,31 @@ transition: all ease 0.5s;
   }
 }
 
+@media (max-width: 767px) {
+  #portfolio .portfolio-item {
+    margin-top:30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #portfolio .portfolio-item .portfolio-link .caption{
+    opacity:1 !important;
+  }
+}
+
 #job-background {
  position: absolute;
  left: 0;
  top: 0;
- width: 100%;
- height: auto%;
+/* width: 100%;
+*/ height: 100%;
  opacity: 0.3;
 }
 
 #job {
-  height:948px;
-  position: relative;
+/*  height:948px;
+*/  position: relative;
   overflow: hidden;
 }
 
@@ -585,8 +598,8 @@ transition: all ease 0.5s;
 }
 
 .job-box .text {
-    line-height: 20px;
-    letter-spacing: 1px;
+  line-height: 20px;
+  letter-spacing: 1px;
 }
 
 .job-box i {
@@ -623,6 +636,28 @@ transition: all ease 0.5s;
   font-size:18px;
 }
 
-.right-side {
-  margin-left:60px;
+@media (min-width: 1200px) {
+  .right-side {
+    margin-left:60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .job-heading + i {
+    display: none;
+  }
+}
+
+.img-circle {
+  width:150px;
+  margin-top: 40px;
+  margin-bottom:30px;
+}
+
+.left-side h2, .left-side p {
+  text-align:right;
+}
+
+#job {
+  padding-bottom: 0;
 }
