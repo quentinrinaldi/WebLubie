@@ -45,7 +45,7 @@ p {
 }
 .bg-primary {
   background-color: rgba(213, 213, 213, 0.2);
-  color:#666666;
+  color:#777;
 }
 .bg-dark {
   background-color: #222222;
@@ -253,6 +253,11 @@ header .header-content .header-content-inner p {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.caption-content h1 {
+  color:white;
+  font-size: 24px;
+}
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -420,4 +425,8 @@ body {
 
 #cd-timeline p {
   color: #777 !important;
+}
+
+.sub-heading {
+  color:#777;
 }
